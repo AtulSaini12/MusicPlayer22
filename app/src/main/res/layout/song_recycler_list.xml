@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:padding="2dp"
+    android:layout_margin="1dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#757575">
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/txtSongname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:ellipsize="marquee"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:textAlignment="textStart"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

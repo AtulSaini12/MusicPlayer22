@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StarPlayer</string>
+    <string name="presents_song_logo">Presents Song Logo</string>
+    <string name="voice_control_on">VOICE CONTROL : ON</string>
+    <string name="voice_control_off">VOICE CONTROL : OFF</string>
+    <string name="back_to_previous_page">Back to previous page</string>
+</resources>

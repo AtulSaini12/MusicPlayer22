@@ -27,7 +27,7 @@
         android:layout_marginTop="?android:attr/actionBarSize">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/songRecycler"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
     </RelativeLayout>
